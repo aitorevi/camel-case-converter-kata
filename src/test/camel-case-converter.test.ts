@@ -1,6 +1,4 @@
-function camelCaseConverter(s: string) {
-    return "";
-}
+import {camelCaseConverter} from "../core/camel-case-convereter";
 
 describe("camel case converter", () => {
     it("allows empty word", () => {
