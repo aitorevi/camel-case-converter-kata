@@ -1,7 +1,9 @@
-import {saidHello} from "../core/example";
+function camelCaseConverter(s: string) {
+    return undefined;
+}
 
-describe("Hello", () => {
-    it("world!", () => {
-        expect(saidHello("world")).toBe("Hello world!")
+describe("camel case converter", () => {
+    it("allows empty word", () => {
+        expect(camelCaseConverter("")).toBe("")
     })
 })
