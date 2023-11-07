@@ -1,4 +1,4 @@
 export function camelCaseConverter(text: string) {
-    const textWithoutSpaces = text.split(" ").join("")
-    return textWithoutSpaces;
+    let words = text.split(" ");
+    return words.join("");
 }
