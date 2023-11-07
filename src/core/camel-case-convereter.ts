@@ -1,3 +1,3 @@
 export function camelCaseConverter(text: string) {
-    return "";
+    return text;
 }
