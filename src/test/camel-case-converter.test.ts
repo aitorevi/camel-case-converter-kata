@@ -10,4 +10,7 @@ describe("camel case converter", () => {
     it("convert to a word by removing spaces", () => {
         expect(camelCaseConverter("Foo Bar")).toBe("FooBar")
     })
+    it("convert to a word by removing spaces and hyphens", () => {
+        expect(camelCaseConverter("Foo_Bar-Foo")).toBe("FooBarFoo")
+    })
 })
