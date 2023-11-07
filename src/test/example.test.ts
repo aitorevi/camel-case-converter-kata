@@ -1,5 +1,5 @@
 function camelCaseConverter(s: string) {
-    return undefined;
+    return "";
 }
 
 describe("camel case converter", () => {
