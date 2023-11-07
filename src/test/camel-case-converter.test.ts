@@ -16,4 +16,7 @@ describe("camel case converter", () => {
     it("convert to a word by replace the first char to upper case", () => {
         expect(camelCaseConverter("foo")).toBe("Foo")
     })
+    it("convert to a word by replace the first char of each word to upper case", () => {
+        expect(camelCaseConverter("foo bar")).toBe("FooBar")
+    })
 })
