@@ -1,3 +1,4 @@
 export function camelCaseConverter(text: string) {
-    return text;
+    const textWithoutSpaces = text.split(" ").join("")
+    return textWithoutSpaces;
 }
