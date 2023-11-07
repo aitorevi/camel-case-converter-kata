@@ -13,4 +13,7 @@ describe("camel case converter", () => {
     it("convert to a word by removing spaces and hyphens", () => {
         expect(camelCaseConverter("Foo_Bar-Foo")).toBe("FooBarFoo")
     })
+    it("convert to a word by replace the first char to upper case", () => {
+        expect(camelCaseConverter("foo")).toBe("Foo")
+    })
 })
